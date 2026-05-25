@@ -1,2 +1,25 @@
-# Minecraft-Block-Sound-Sampler
-Minecraft Block Sound Sampler is an interactive website that lets users explore and play authentic Minecraft block sound effects by clicking on different blocks. Each block responds with its unique in-game sound and a small animation, creating a fun and immersive Minecraft-inspired experience.
+# Minecraft Block Sound Sampler
+
+## Overview
+
+Minecraft Block Sound Sampler is a fun and interactive web project inspired by Minecraft. Users can click on different Minecraft blocks to hear their real in-game sound effects along with smooth visual animations. 
+
+
+## Features
+
+* Minecraft block sounds
+* Clickable block cards
+* Simple animations
+
+
+## Built With
+
+* HTML
+* CSS
+* JavaScript
+
+
+
+## License
+
+Minecraft assets belong to Mojang Studios.
