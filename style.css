@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    margin-bottom:40px;
+    background-image: url(Assets/images/backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+    min-height: 25vh;
+
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: 'Minecraft';
+
+}
+
+header p {
+    color: #bbbbbb;
+    font-family: 'Robitica';
+    font-size: 20px;
+}
+
+section{
+    padding: 40px;
+}
+
+.blck-cnt{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 30px;
+}
+
+.block-card{
+    background: #1e1e1e;
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition:0.3s;
+    cursor: pointer;
+}
+
+.block-card :hover{
+    transform: scale(1.05);
+    border-color: #4caf50;
+    box-shadow: 0 0 20px #4caf50;
+}
+
+.block-card img{
+    width: 140px;
+    height: 140px;
+    object-fit:contain;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+
+.btn {
+    width: 150px;
+    height: 50px;
+    outline: none;
+    margin: 3px;
+    border: 0;
+    background: #1e1e1e;
+    border-radius: 7px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke: 0.4px white;
+}
+
+.btn:hover{
+    opacity: .7;
+    color: white;
+
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Assets/fonts/Minecrafter.Reg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Robotica';
+    src: url('Assets/fonts/Robotica.ttf') format('truetype');
+}
